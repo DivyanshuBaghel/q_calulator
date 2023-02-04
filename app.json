@@ -24,11 +24,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.divyanshubaghel1.snack4a0c0970f485440683f0be896e129981"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "A simple  calculator "
+    "description": "A simple  calculator ",
+    "extra": {
+      "eas": {
+        "projectId": "9377be58-be8c-4601-a367-9e892bcb5099"
+      }
+    }
   }
 }

@@ -15,6 +15,9 @@ export default class Calculator extends React.Component {
     if (result === "0" ){
       result = ""
     }
+    if (result === "undefined" ){
+      result = ""
+    }
    
 
     if (btnVal === "=") {
